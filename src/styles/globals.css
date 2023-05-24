@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Consolas';
-  src: url('typo/CONSOLA.TTF') format('truetype');
+  src: url('./typo/CONSOLA.TTF') format('truetype');
 }
 :root {
   --main-color: #808080;
