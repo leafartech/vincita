@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Consolas';
+  src: url('../../public/typo/CONSOLA.TTF') format('truetype');
+}
+:root {
+  --main-color: #808080;
+  --secondary-color: #fff;
+  --terciary-color: #F1F1F1;
+  --bg-color: #040A25;
+  --warning-color: #D00101
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Consolas', sans-serif;
+}
+p {
+  font-weight: 300;
+}
+p span.strong {
+  font-weight: bold;
+}
+.dropdownActived {
+  position: relative!important;
+  opacity: 1!important;
+  z-index: 1!important;
+  transition: 500ms;
+}
