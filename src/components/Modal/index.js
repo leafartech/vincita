@@ -77,7 +77,7 @@ export default function Modal({ modalState, modalChange }) {
                             <p className={ styles['alert'] }>{indicacao}% em gastos.</p>
                             <h5>{indicacaoMessage}</h5>
                         </>
-                        <span onClick={e => calculate(e)} style={{ fontFamily: 'Lato, sans-serif', color: 'var(--main-color)', textDecoration: 'underline'}}>Calcular nível de indicação</span>
+                        <span onClick={e => calculate(e)} style={{ fontFamily: 'Lato, sans-serif', color: 'var(--main-color)', textDecoration: 'underline', fontWeight: 'bold'}}>Calcular nível de indicação</span>
                     </div>
                     <Button modalChange={e => modalChange(e)} path="/#formulario" link={true} alert={ animation ? true : false}>Saia do superendividamento!</Button>
                     <div className={ styles.bottom }>
