@@ -64,7 +64,7 @@ export default function Calculadora({ modalState, modalChange }) {
                     <label>Renda líquida</label>
                     <div>
                         <span>R$</span>
-                        <input onChange={e => inptChange(e)} name="salario" type="number" value={salario} />
+                        <input placeholder="00" onChange={e => inptChange(e)} name="salario" type="number" value={salario} />
                     </div>
                     {error['salario'] ?
                     <p className={ styles.error }>Preencha o campo acima com apenas números</p>
@@ -74,7 +74,7 @@ export default function Calculadora({ modalState, modalChange }) {
                     <label>Gastos totais</label>
                     <div>
                         <span>R$</span>
-                        <input onChange={e => inptChange(e)} name="custo" type="number" value={custo} />
+                        <input placeholder="00" onChange={e => inptChange(e)} name="custo" type="number" value={custo} />
                     </div>
                     {error['custo'] ?
                     <p className={ styles.error }>Preencha o campo acima com apenas números</p>
