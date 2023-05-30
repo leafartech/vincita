@@ -1,0 +1,32 @@
+.publico {
+    width: 318px;
+    height: 100%;
+    background-color: var(--terciary-color);
+    border-radius: 4px
+}
+.publico .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    border-radius: 4px
+}
+.publico .header.ok {
+    background: var(--bg-color);
+}
+.publico .header.notOk {
+    background: var(--warning-color);
+}
+.publico body {
+
+}
+@media (min-width: 920px) {
+    .publico {
+    }
+}
+@media (max-width: 360px) {
+    .publico {
+        width: 300px;
+    }
+}
