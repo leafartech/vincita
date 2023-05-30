@@ -127,7 +127,7 @@ export default function HomeScreen() {
                 <Section >
                     <img src="./images/img.png" alt="Imagem icônica de direito" className={ styles.lastImg }/>
                     <div className={ styles.about }>
-                        <div style={{ marginBottom: '24px'}}>
+                        <div style={{ marginBottom: '24px'}} className={ styles.centralized }>
                             <Text tag="h2">Sobre o KRUGER TOLEDO: </Text>
                         </div>
                         <div className={ styles.text }>
