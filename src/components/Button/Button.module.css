@@ -1,0 +1,48 @@
+.button {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-align: center;
+    background: var(--quartenary-color);
+    margin-top: 42px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    z-index: 1000;
+}
+a.button {
+    margin-top: 32px;
+}
+.button.bg {
+    background: var(--bg-color);
+}
+.button:hover {
+    background: var(--quartenary-color);
+}
+.button.alert {
+    background: var(--warning-color);
+    animation: jump normal 2s;
+}
+@keyframes jump {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+@media (min-width: 920px) {
+    .button {
+        max-width: 442px;
+    }
+}
+@media (max-width: 360px) {
+    .button {
+        font-size: 16px;
+    }
+}
