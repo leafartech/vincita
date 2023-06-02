@@ -23,7 +23,7 @@ export default function Card({children, path, name, position, text, href, number
                     <h4>{position}</h4>
                 </div>
                 <p>{text}</p>
-                <Link href={href}>Mais informações</Link>
+//                 <Link href={href}>Mais informações</Link>
             </div>
         </div>
     )
