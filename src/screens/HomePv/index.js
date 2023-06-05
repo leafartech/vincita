@@ -157,7 +157,7 @@ export default function HomeScreen() {
                         <Button link={true} path='#formulario'>Conte com nossa ajuda!</Button>
                     </div>
                 </Section>
-                <Section bg={true} top={true}>
+                <Section top={true}>
                     <Text tag="h2" bg={true}>Onde estamos?</Text>
                     <Subtitle >Faça sua opção por atendimento presencial ou on-line</Subtitle>
                     <img src="./imagesPv/map.png" alt="Localização do escritório Krüger Toledo" className={ styles.map } style={{ marginTop: '24px'}}/>
