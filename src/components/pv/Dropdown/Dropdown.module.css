@@ -1,0 +1,59 @@
+.dropdownBig {
+    position: relative;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.dropdownBig .pills {
+    position: absolute;
+    top: -32px;
+}
+.dropdown {
+    padding: 0;
+    margin: 0;
+}
+.dropdown li {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+    color: #fff;
+    display: flex;
+    padding: 18px 0;
+    margin-bottom: 18px;
+    background: var(--pv-main-color);
+    font-family: 'Lato', sans-serif;
+}
+.dropdown span {
+    max-width: 300px;
+}
+.dropdown .dropTitle {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 18px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+.dropdown .dropTitle > div {
+    display: flex;
+    align-items: center;
+}
+.dropdown svg {
+    height: 16px;
+    width: 16px;
+    fill: #fff;
+}
+.dropdown li .dropdownDiv {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    background: #fff;
+    color: #141414;
+    padding:12px;
+}
+@media (min-width: 920px) { 
+    .dropdownBig {
+        width: 600px;
+    }
+}
