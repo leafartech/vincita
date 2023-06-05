@@ -29,7 +29,7 @@ export default function HomeScreen() {
                     <div className={ styles.border }>
                         <Title tag="h2">Entenda como recuperar sua estabilidade financeira</Title>
                         <div className={ styles.btn }>
-                            <Link href="/repactuacao">Saiba mais</Link>
+                            <Link href="/repactuacao" style={{ color: 'var(--main-color)'}}>Saiba mais</Link>
                         </div>
                     </div> 
                 </Section>
