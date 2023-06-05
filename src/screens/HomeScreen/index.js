@@ -21,7 +21,7 @@ export default function HomeScreen() {
                     <Title bot={ true }>Nossos melhores advogados a 1 clique de distância</Title>
                     {/* <div className={ styles.bord }></div> */}
                     <div className={ 'flex' } style={{ marginTop: '24px'}}>
-                        <Card href="/equipe/bossuet" name="Esther Krüger" path="1" position="Sócia-líder do escritório" text="formada pela PUC/RS, já trabalhou em empresas multinacionais e em uma das três maiores empresas de auditoria e contabilidade do mundo. Traz ao escritório a atualização e tecnologia necessária para os negócios nos dias atuais."></Card>
+                        <Card href="/equipe/bossuet" name="Esther Krüger" path="1" position="Sócia-líder do escritório" text="Formada pela PUC/RS, já trabalhou em empresas multinacionais e em uma das três maiores empresas de auditoria e contabilidade do mundo. Traz ao escritório a atualização e tecnologia necessária para os negócios nos dias atuais."></Card>
                     </div>
                 </Section>
                 <Section top={true} >
