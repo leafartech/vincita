@@ -1,0 +1,17 @@
+.text {
+    margin-top: 48px;
+}
+.ul {
+    margin-top: 24px;
+    padding-left: 12px;
+}
+@media (min-width: 1024px) {
+    .ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        text-align: center;
+    }
+}

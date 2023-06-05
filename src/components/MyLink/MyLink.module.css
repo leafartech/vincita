@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: var(--neutral);
+}
+.link:hover {
+    color: var(--link-color);
+}
+.active {
+    color: var(--link-color);
+}
