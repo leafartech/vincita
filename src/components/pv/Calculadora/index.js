@@ -94,7 +94,7 @@ export default function Calculadora({ modalState, modalChange }) {
                     ''}
                 </div>
             </form>
-            <Button path="/#formulario" link={true} alert={ animation ? true : false}>Recupere a sua estabilidade financeira agora!</Button>
+            <Button path="/repactuacao/#formulario" link={true} alert={ animation ? true : false}>Recupere a sua estabilidade financeira agora!</Button>
         </div>
     )
 }
