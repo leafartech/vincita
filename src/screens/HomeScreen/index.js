@@ -36,7 +36,7 @@ export default function HomeScreen() {
                     <img src="./imagesPv/map.png" alt="Localização do escritório Krüger Toledo" className={ styles.map } style={{ marginTop: '24px'}}/>
                     <span className={ styles['map-span']}><Subtitle left={true}>Brasília/DF: SHTN, 1, 3105, Asa Norte, CEP 70.800-200</Subtitle></span>
                     <img src="./imagesPv/map2.png" alt="Localização do escritório Krüger Toledo" className={ styles.map }/>
-                    <span className={ styles['map-span']}><Subtitle left={true}>São Paulo/SP   Avenida Paulista, 1471, conjunto 511, Bela Vista</Subtitle></span>
+                    <span className={ styles['map-span']}><Subtitle left={true}>São Paulo/SP   Avenida Paulista, 1471, conjunto 511, Bela Vista, CEP 01.311-927</Subtitle></span>
                     <div className={ styles.btn }>
                         <Link link={true}  href='/repactuacao' style={{ color: 'var(--main-color)'}}>Entrar em Contato</Link>
                     </div>
