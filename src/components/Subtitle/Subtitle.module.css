@@ -1,0 +1,32 @@
+.subtitle {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--neutral);
+    margin-top: 12px;
+}
+.subtitle p {
+    max-width: 600px;
+}
+.left {
+    justify-content: flex-start;
+    text-align: left;
+}
+.justify {
+    text-align: justify!important;
+}
+.center p {
+    text-align: center!important;
+}
+@media (max-width: 500px) {
+    .subtitle {
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .subtitle p {
+        text-align: justify;
+    }
+}
