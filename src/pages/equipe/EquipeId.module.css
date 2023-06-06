@@ -1,0 +1,11 @@
+.description {
+    margin-top: 36px;
+}
+.img {
+    margin-top: 48px;
+}
+@media (max-width: 350px) {
+    .img {
+        width: 100%;
+    }
+}
