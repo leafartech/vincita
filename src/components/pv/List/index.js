@@ -82,7 +82,7 @@ export default function List() {
                 <img className={ styles['list-icon'] } src="./imagesPv/icon.png" alt="ícone" />
                 <h4>5 - SENTENÇA DE REPACTUAÇÃO ou ABERTURA DE PROCESSO DE REPACTUAÇÃO:</h4>
                 <Subtitle size={true} justify={true}>
-                5.1 Se ainda sobrarem credores que não aceitem a proposta o juiz determinará o aceite compulsório do nosso plano de pagamento ou produzirá perícias para analisar os contratos e verificar abusividades e ilegalidades que poderá levar em muitos casos em devolução de dinheiro para você e ainda condenação dos credores a pagamentos de indenização por danos morais.
+                5.1 Se ainda sobrarem credores que não aceitem a proposta, o juiz determinará o aceite compulsório do nosso plano de pagamento, ou, ainda, produzirá perícias para analisar os contratos. Nessa análise será verificado se existem abusos ou ilegalidades nos contratos. Se existirem, você poderá reaver esses valores e pode haver a condenação dos credores ao pagamento de danos morais.
                 </Subtitle>
             </li>
             <div className={ styles['final-arrow']}>
