@@ -146,11 +146,11 @@ export default function HomeScreen() {
                             </Subtitle>
                         </div>
                         <div style={{ marginBottom: '24px'}} className={ styles.centralized }>
-                            <Text tag="h2">Sobre o KRÜGER TOLEDO: </Text>
+                            <Text tag="h2">Sobre o Krüger Toledo: </Text>
                         </div>
                         <div className={ styles.text }>
                             <Subtitle justify={true}>
-                                Nós somos o escritório de advocacia Krüger Toledo especializado em resolver o problema do superendividamento dos servidores públicos.
+                                Nós somos o escritório de advocacia Krüger Toledo, especializado em resolver o problema do superendividamento dos servidores públicos.
                             </Subtitle>
                             <Subtitle justify={true}>
                             Com nossa vasta experiência no atendimento de mais de 350 clientes e gerenciamento de mais de 13 milhões de reais, estamos plenamente capacitados a desenvolver estratégias jurídicas altamente eficazes para reequilibrar as finanças pessoais dos servidores públicos em um tempo recorde.
