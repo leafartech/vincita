@@ -1,0 +1,25 @@
+.subtitle p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 130%;
+}
+.subtitle.justify p {
+    text-align: justify!important;
+}
+.subtitle.size p {
+    font-size: 14px;
+}
+.subtitle.left p {
+    text-align: left;
+}
+@media (min-width: 920px) {
+    .subtitle p {
+        max-width: 600px;
+    }
+}
+@media (max-width: 426px) {
+    .subtitle p {
+        /* font-size: 15px */
+    }
+}
