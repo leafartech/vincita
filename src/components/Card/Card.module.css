@@ -1,0 +1,25 @@
+.card {
+    width: 340px;
+    /* height */
+    border-radius: 4px 4px 0 0;
+}
+.card img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+.card > div {
+    border: 1px solid var(--neutral2);
+    border-top: 0;
+    padding: 16px;
+    border-radius: 8px;
+}
+.card > div h2 {
+    font-size: 18px;
+    text-align: left;
+    color: var(--main-color);
+    margin-bottom: 24px;
+
+}
+.card > div p {
+    text-align: justify;
+}
