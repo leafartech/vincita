@@ -1,0 +1,98 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 84px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    z-index: 1;
+}
+.navbar .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 120px;
+}
+.navbar .menu li {
+    padding: 12px;
+}
+.navbar .logo {
+    height: 40px
+}
+.navbar .logo img {
+    height: 100%
+}
+@media (max-width: 500px) {
+    .navbar .logo {
+        z-index: 1000;
+    }
+    .hamburguer {
+        position: absolute;
+        right: 24px;
+        width: 28px;
+        height: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        z-index: 1000;
+    }
+    .hamburguer div {
+        height: 2px;
+        background: var(--neutral);
+        transition: 500ms;
+    }
+    .hamburguer .f {
+        width: 80%;
+    }
+    .hamburguer .s {
+        width: 70%;
+        transform: translateX(2px);
+    }
+    .hamburguer .t {
+        width: 85%;
+    }
+    .navbar .menu {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        background: var(--main-color);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        padding-top: 80px;
+        padding-left: 20px;
+        transform: translateX(100vw);
+        transition: 500ms;
+    }
+    .hamburguer.active .f {
+        width: 85%;
+        transform: rotate(45deg) translateY(9px) translateX(1px);
+        transition: 500ms;
+    }
+    .hamburguer.active .s {
+        transition: 500ms;
+        opacity: 0;
+        transform: translateX(2px);
+    }
+    .hamburguer.active .t {
+        width: 85%;
+        transform: rotate(-45deg) translateY(-9px) translateX(1px);
+        transition: 500ms;
+    }
+    .navbar .menu.active {
+        transition: 500ms;
+        transform: translateX(0);
+    }
+    .navbar .menu li {
+        font-size: 24px;
+    }
+}

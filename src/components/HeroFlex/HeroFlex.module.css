@@ -1,0 +1,21 @@
+.hero-flex {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.hero-flex .img {
+    width: 400px;
+    height: 300p;
+}
+.hero-flex .img img {}
+.hero-flex .text {
+    display: flex;
+    flex-direction: column;
+}
+.hero-flex .text h2 {
+    font-size: 20px;
+    color: var(--main-color)
+}
