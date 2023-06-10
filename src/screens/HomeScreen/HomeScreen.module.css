@@ -102,7 +102,7 @@
         padding: 0;
     }
     .minus {
-        margin-top: -36px;
+        margin-top: -72px;
     }
     .map iframe {
         width: 100%;
@@ -113,12 +113,15 @@
     }
     .home-screen .hero {
         flex-direction: column;
+        text-align: center;
+        align-items: center;
         margin-top: -24px;
     }
     .home-screen .hero p {
         max-width: 400px;
         font-size: 20px;
         font-weight: 400;
+        text-align: justify;
     }
     .home-screen .hero img {
         border-radius: 4px;
