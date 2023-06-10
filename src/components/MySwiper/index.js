@@ -26,6 +26,7 @@ export default function MySwiper() {
                         slidesPerView: 1
                     }
                 }}
+                initialSlide={1}
                 className="mySwiper"
             >
                 <SwiperSlide className="swiper-slide">
@@ -35,7 +36,7 @@ export default function MySwiper() {
                     </Card>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                    <Card imagePath="1" title="DANO MORAL CONTRA BANCOS:">
+                    <Card imagePath="2" title="DANO MORAL CONTRA BANCOS:">
                         <p>Se você considera ter sido lesado pelos bancos de alguma forma, você tem direito a reparação pecuniária aos danos causados sendo que em alguns casos podem superar R$ 50.000,00 (cinquenta mil reais);</p>
                     </Card>
                 </SwiperSlide>
@@ -46,7 +47,7 @@ export default function MySwiper() {
                     </Card>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                    <Card imagePath="2" title="CONTESTAÇÃO DE COBRANÇA DE VALORES INDEVIDOS:">
+                    <Card imagePath="9" title="CONTESTAÇÃO DE COBRANÇA DE VALORES INDEVIDOS:">
                         <p>Se você considera ter sido lesado pelos bancos de alguma forma, você tem direito a reparação pecuniária aos danos causados sendo que em alguns casos podem superar R$ 50.000,00 (cinquenta mil reais).</p>
                     </Card>
                 </SwiperSlide>

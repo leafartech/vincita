@@ -6,7 +6,6 @@ import Title from '@/components/Title'
 import Footer from '@/components/Footer'
 import MySwiper from '@/components/MySwiper'
 import HeroFlex from '@/components/HeroFlex'
-import Card from '@/components/Card'
 
 export default function HomeScreen() {
     return (
@@ -22,9 +21,9 @@ export default function HomeScreen() {
                         {/* <Title bot={true} bg={true}><span style={{ letterSpacing: '2px' }}>+350 CLIENTES +13 MILHÕES SOB GESTÃO</span></Title> */}
                         <Title mt={true} bg={true} bot={true}>+ 350 CLIENTES E + 13 MILHÕES SOB GESTÃO</Title>  
                     </span>
-                    <HeroFlex bg={true} imagePath={'hero2'}>
+                    <HeroFlex bg={true} imagePath={'hero2'} title="O KRÜGER TOLEDO ADVOCACIA resolve o superendividamento!">
                         <p style={{ marginBottom: '8px;'}}>
-                            O KRÜGER TOLEDO ADVOCACIA resolve o superendividamento! Além de uma equipe de advogados altamente qualificados e experientes, contamos com profissionais multidisciplinares que resolvem desde os problemas contábeis até psicológicos.
+                            Além de uma equipe de advogados altamente qualificados e experientes, contamos com profissionais multidisciplinares que resolvem desde os problemas contábeis até psicológicos.
                         </p>
                         <p>
                             Nosso objetivo é fornecer soluções personalizadas para atender às necessidades de nossos clientes, independente do grau de endividamento.
@@ -45,10 +44,15 @@ export default function HomeScreen() {
                     </HeroFlex>
                 </Section>
                 <Section top={true}>
-                    <Card team={true} imagePath="1" title="Esther Krüger">
-                        <p>Esther Krüger Toledo, sócia-líder do escritório
-formada pela PUC/RS, já trabalhou em empresas multinacionais e em uma das três maiores empresas de auditoria e contabilidade do mundo. Traz ao escritório a atualização e tecnologia necessária para os negócios nos dias atuais.</p>
-                    </Card>
+                    <div className={ styles.minus }>
+                        <Title bg={true} bot={true} mt={true}>Esther Krüger Toledo</Title> 
+                        <div className={ styles.hero }>
+                            <img src="./images/1.png" alt="Esther Krüger Toledo" />
+                            <p>Sócia-líder do escritório
+                                formada pela PUC/RS, já trabalhou em empresas multinacionais e em uma das três maiores empresas de auditoria e contabilidade do mundo. Traz ao escritório a atualização e tecnologia necessária para os negócios nos dias atuais.
+                            </p>
+                        </div>
+                    </div>
                 </Section>
             </Main>
             <Footer />

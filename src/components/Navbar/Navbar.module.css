@@ -45,7 +45,7 @@
     }
     .hamburguer div {
         height: 2px;
-        background: var(--neutral);
+        background: var(--main-color);
         transition: 500ms;
     }
     .hamburguer .f {
