@@ -1,14 +1,14 @@
 .subtitle {
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: var(--neutral);
+    color: var(--main-color);
     margin-top: 12px;
 }
 .subtitle p {
     max-width: 600px;
+    font-weight: 400;
 }
 .left {
     justify-content: flex-start;

@@ -8,7 +8,7 @@
     color: #fff;
 }
 .title.bg {
-    color: var(--main-color);
+    color: var(--main-color)!important;
 }
 .title h2 {
     font-weight: 600;
@@ -28,10 +28,18 @@
 .bot::before {
     content: '';
     position: absolute;
-    bottom: -8px;
+    bottom: 0;
     width: 100px;
     height: 2px;
     background: var(--main-color);
+}
+.bot-col::before {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  width: 100px;
+  height: 2px;
+  background: #fff
 }
 .margin-top {
   font-size: 24px;
@@ -51,10 +59,11 @@
     .bot::before {
         content: '';
         position: absolute;
-        bottom: -8px;
-        width: 100px;
-        height: 2px;
-        background: var(--main-color);
+        bottom: 14px;
+        opacity: 0;
+    }
+    .tracking-in-contract {
+      animation: none!important;
     }
 }
 .tracking-in-contract {

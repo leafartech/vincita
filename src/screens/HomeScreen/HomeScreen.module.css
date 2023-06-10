@@ -1,3 +1,6 @@
+.home-screen {
+    overflow: hidden;
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -59,6 +62,15 @@
     gap: 24px;
     margin-top: 44px;
 }
+.home-screen .ul {
+    list-style: circle;
+    padding-left: 24px;
+    max-width: 400px;
+}
+.home-screen .span {
+    margin-bottom: 24px;
+    margin-top: 48px;
+}
 @media (max-width: 500px) {
     .map-span {
         margin-top: 0;
@@ -73,6 +85,10 @@
     }
     .map iframe {
         width: 100%;
+    }
+    .home-screen .span {
+        margin-bottom: -24px;
+        margin-top: -24px;
     }
 }
 @media (max-width: 360px) {

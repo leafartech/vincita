@@ -5,6 +5,11 @@
     justify-content: center;
     align-items: center;
 }
+.bg {
+    margin: 48px 0;
+    padding: 120px 0;
+    background-color: var(--neutral)
+}
 .section .container {
     width: 100%;
     max-width: 1200px;
@@ -14,6 +19,7 @@
     align-items: center;
 }
 .section.top {
+    /* margin-bottom: 72px; */
     margin-top: 72px;
 }
 

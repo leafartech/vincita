@@ -1,8 +1,8 @@
 import styles from './Section.module.css'
 
-export default function Section({children, top}) {
+export default function Section({children, top, bg}) {
     return (    
-        <section className={ `${top ? styles.top : ''} ${styles.section}` }>
+        <section className={ `${bg && styles.bg} ${top ? styles.top : ''} ${styles.section}` }>
             <div className={ styles.container}>
                 {children}
             </div>

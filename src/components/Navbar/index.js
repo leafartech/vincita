@@ -32,13 +32,10 @@ export default function Navbar({secondary}) {
                     <MyLink path="/">INÍCIO</MyLink>
                 </li>
                 <li>
-                    <MyLink path="/escritorio">QUEM SOMOS</MyLink>
+                    <MyLink path="/sobre">QUEM SOMOS</MyLink>
                 </li>
-                {/* <li>
-                    <MyLink path="/equipe">Equipe</MyLink>
-                </li> */}
                 <li>
-                    <MyLink path="/repactuacao">ÁREAS DE ATUAÇÃO</MyLink>
+                    <MyLink path="/localizacao">ONDE ESTAMOS</MyLink>
                 </li>
                 <li>
                     <MyLink path="/repactuacao">CONTATO</MyLink>

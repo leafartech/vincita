@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from '../Navbar'
 import Title from '../Title'
 import styles from './Header.module.css'
+import Link from 'next/link'
 
 export default function Header({image, secondary}) {
     const [ subtitle, setSubtitle ] = useState(false)
@@ -21,6 +22,7 @@ export default function Header({image, secondary}) {
             <div className={ styles.text }>
                 <Title tag="h1" animation={true}>Muito além da Repactuação das Dívidas</Title>
                 <Title tag="h2"><span className={ `${subtitle && styles.opc }` }>Assistimos os superendividados de uma forma integral.</span></Title>
+                <Link href="/repactuacao" className={ styles.link }>Saiba mais</Link>
             </div>
         </header>
     )
