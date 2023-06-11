@@ -48,7 +48,7 @@ export default function MySwiper() {
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
                     <Card imagePath="9" title="CONTESTAÇÃO DE COBRANÇA DE VALORES INDEVIDOS:">
-                        <p>Se você considera ter sido lesado pelos bancos de alguma forma, você tem direito a reparação pecuniária aos danos causados sendo que em alguns casos podem superar R$ 50.000,00 (cinquenta mil reais).</p>
+                        <p>Os bancos costumam fazer lançamentos e cobranças em sua conta de valores indevidos, que você sequer saber do que se trata.</p>
                     </Card>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
