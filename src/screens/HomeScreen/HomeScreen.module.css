@@ -89,6 +89,23 @@
 .home-screen .hero img {
     border-radius: 4px;
 }
+.home-screen .whatsapp {
+    position: fixed;
+    bottom: 12px;
+    right: 24px;
+    z-index: 1000;
+    background: #fff;
+    border-radius: 4px;
+}
+.home-screen .whatsapp::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.home-screen .whatsapp img {
+    height: 48px;
+    width: 48px;
+}
 @media (max-width: 500px) {
     .map-span {
         margin-top: 0;

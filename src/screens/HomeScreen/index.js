@@ -6,10 +6,14 @@ import Title from '@/components/Title'
 import Footer from '@/components/Footer'
 import MySwiper from '@/components/MySwiper'
 import HeroFlex from '@/components/HeroFlex'
+import Link from 'next/link'
 
 export default function HomeScreen() {
     return (
         <div className={ styles['home-screen']}>
+            <Link href="https://api.whatsapp.com/send?phone=5561981401978" target='_blank' className={ styles.whatsapp }>
+                <img src="./images/whatsapp.png" alt="Link para o Whatsapp Kruger Toledo" />
+            </Link>
             <Header />
             <Main>
                 <Section>

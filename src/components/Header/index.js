@@ -20,8 +20,8 @@ export default function Header({image, secondary}) {
             <img src="./images/bg1.png" alt="" className={ styles.bg } />
             }
             <div className={ styles.text }>
-                <Title tag="h1" animation={true}>Muito além da Repactuação das Dívidas</Title>
-                <Title tag="h2"><span className={ `${subtitle && styles.opc }` }>Assistimos os superendividados de uma forma integral.</span></Title>
+                <Title tag="h1" animation={true}>Muito além da repactuação das dívidas</Title>
+                <Title tag="h2"><span className={ `${subtitle && styles.opc }` }>Assistência aos superendividados de uma forma integral.</span></Title>
                 <Link href="/repactuacao" className={ styles.link }>Saiba mais</Link>
             </div>
         </header>

@@ -8,7 +8,7 @@ export default function Footer({ secondary }) {
             : 
             <img src="./images/logo.png" alt="Escritório KRÜGER TOLEDO advocacia" />
             }
-            <p>2023 KRÜGER TOLEDO © Todos os direitos reservados.</p>
+            <p>KRÜGER TOLEDO © Todos os direitos reservados.</p>
         </footer>
     )
 }
