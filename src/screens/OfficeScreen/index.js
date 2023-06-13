@@ -35,7 +35,7 @@ export default function OfficeScreen() {
                             <li style={{ color: 'var(--main-color)', fontWeight: 400}}>Técnicos contadores auxiliares;</li>
                             <li style={{ color: 'var(--main-color)', fontWeight: 400}}>Atendimento psicológico para tratamento do sentimento de culpa do endividado;</li>
                             <li style={{ color: 'var(--main-color)', fontWeight: 400}}>Processualista com mais de 30 anos de experiência;</li>
-                            <li style={{ color: 'var(--main-color)', fontWeight: 400}}>Equipe de apoio dedicada e pró ativa;</li>
+                            <li style={{ color: 'var(--main-color)', fontWeight: 400}}>Equipe de apoio dedicada e proativa;</li>
                         </ul>
                     </div>
                 </Section>
