@@ -163,7 +163,7 @@ export default function HomeScreen() {
                             <li style={{ color: 'var(--pv-secondary-color)', maxWidth: '400px'}}>Técnicos contadores auxiliares;</li>
                             <li style={{ color: 'var(--pv-secondary-color)', maxWidth: '400px'}}>Atendimento psicológico para tratamento do sentimento de culpa do endividado;</li>
                             <li style={{ color: 'var(--pv-secondary-color)', maxWidth: '400px'}}>Processualista com mais de 30 anos de experiência;</li>
-                            <li style={{ color: 'var(--pv-secondary-color)', maxWidth: '400px'}}>Equipe de apoio dedicada e pró ativa;</li>
+                            <li style={{ color: 'var(--pv-secondary-color)', maxWidth: '400px'}}>Equipe de apoio dedicada e proativa;</li>
                         </ul>
                         <Subtitle justify={true} left={true}>BRASÍLIA/DF – SÃO PAULO/SP – PORTO ALEGRE/RS</Subtitle>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
