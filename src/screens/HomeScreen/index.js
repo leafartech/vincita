@@ -11,7 +11,7 @@ import Link from 'next/link'
 export default function HomeScreen() {
     return (
         <div className={ styles['home-screen']}>
-            <Link href="https://api.whatsapp.com/send?phone=5561981401978" target='_blank' className={ styles.whatsapp }>
+            <Link href="https://api.whatsapp.com/send?phone=5561981401978&text=Olá!%20Quero%20saber%20mais%20sobre%20os%20serviços%20do%20escritório%20Krüger%20Toledo%20Advocacia." target='_blank' className={ styles.whatsapp }>
                 <img src="./images/whatsapp.png" alt="Link para o Whatsapp Kruger Toledo" />
             </Link>
             <Header />
