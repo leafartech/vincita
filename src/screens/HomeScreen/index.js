@@ -43,7 +43,7 @@ export default function HomeScreen() {
                             <li>Técnicos contadores auxiliares;</li>
                             <li>Atendimento psicológico para tratamento do sentimento de culpa do endividado;</li>
                             <li>Processualista com mais de 30 anos de experiência;</li>
-                            <li>Equipe de apoio dedicada e pró ativa;</li>
+                            <li>Equipe de apoio dedicada e proativa;</li>
                         </ul>
                     </HeroFlex>
                 </Section>
