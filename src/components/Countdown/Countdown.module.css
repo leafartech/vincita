@@ -1,0 +1,29 @@
+.countdown {
+    display: flex;
+    gap: 12px;
+}
+.countdown > div span {
+    display: block;
+    padding: 12px 0;
+    width: 70px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    line-height: 130%;
+    background: red;
+}
+.countdown div p {
+    width: 70px;
+    padding: 12px;
+    color: #fff;
+    background: red;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 130%;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 12px;
+}
