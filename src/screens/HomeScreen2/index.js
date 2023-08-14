@@ -73,7 +73,7 @@ export default function HomeScreen2() {
                     </div>
                     <img src="./images/1.png" alt="" />
                 </div>
-                <div className="form-container"></div>;
+                <div className="form-container"></div>
             </main>
             <Footer />
         </div>
