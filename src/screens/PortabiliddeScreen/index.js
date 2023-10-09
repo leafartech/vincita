@@ -62,6 +62,7 @@ export default function PortabilidadeScreen() {
                     </div>
                 </Section>
                 <Section>
+                    <Text bottom={true} bg={true} tag="h2">Como esse Golpe acontece?</Text>
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '24px', marginTop: '12px' }}>
                         <Subtitle
                             left={true}
