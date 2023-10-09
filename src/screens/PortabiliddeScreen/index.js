@@ -58,6 +58,12 @@ export default function PortabilidadeScreen() {
             </Header>
             <main className={ styles.main }>
                 <Section>
+                    <div className={styles.what}>
+                        <Text bottom={true} bg={true} tag="h2">Observe na linha do tempo como funciona</Text>
+                        <List />
+                    </div>
+                </Section>
+                <Section>
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '24px', marginTop: '12px' }}>
                         <Subtitle
                             left={true}
