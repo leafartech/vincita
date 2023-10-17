@@ -107,7 +107,7 @@ export default function PortabilidadeScreen() {
                         >É exatamente isso que acontece no golpe da portabilidade de empréstimo consignado.</Subtitle>
                     </div>
                     <Button link={true} path="#formulario">
-                        Quero solucuinar meu caso
+                        Quero solucionar meu caso
                     </Button>
                 </Section>
                 <Section >
@@ -129,7 +129,7 @@ export default function PortabilidadeScreen() {
                             <li style={{ color: 'var(--pv-secondary-color)', maxWidth: '400px' }}>Equipe de apoio dedicada e proativa;</li>
                         </ul>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <Button link={true} path='#formulario'>Quero solucuinar meu caso</Button>
+                            <Button link={true} path='#formulario'>Quero solucionar meu caso</Button>
                         </div>
                     </div>
                 </Section>
