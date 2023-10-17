@@ -142,12 +142,12 @@ export default function PortabilidadeScreen() {
                     {/* <span style={{ marginTop: '24px'}}><Subtitle left={true} size={true}>São Paulo/SP: Avenida Paulista, 1471, conjunto 511, Bela Vista, CEP 01.311-927</Subtitle></span> */}
                     <Button link={true} path='#formulario'>Quero solucionar meu caso</Button>
                 </Section>
-                // <Section sm={true}>
-                //     <Text tag="h2" bottom={true}>Dúvidas Frequentes</Text>
-                //     <Dropdown
-                //         liDrowdown={faq}
-                //     />
-                // </Section>
+                {/*<Section sm={true}>
+                     <Text tag="h2" bottom={true}>Dúvidas Frequentes</Text>
+                     <Dropdown
+                         liDrowdown={faq}
+                     />
+                 </Section>*/}
                 <div className={styles.formulario} id="formulario">
                     <div className={`${"_form_21"}  ${styles.border}`}></div>
                 </div>
