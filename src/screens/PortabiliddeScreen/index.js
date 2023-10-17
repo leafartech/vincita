@@ -140,7 +140,7 @@ export default function PortabilidadeScreen() {
                     <span style={{ marginTop: '24px' }}><Subtitle left={true} size={true}>Alvorada - Brasília: SHTN, Asa Norte Trecho 1 Golden Tulip, CEP 70.800-200</Subtitle></span>
                     {/* <img src="./imagesPv/map2.png" alt="Localização do escritório Krüger Toledo" className={ styles.map } style={{ marginTop: '24px'}}/> */}
                     {/* <span style={{ marginTop: '24px'}}><Subtitle left={true} size={true}>São Paulo/SP: Avenida Paulista, 1471, conjunto 511, Bela Vista, CEP 01.311-927</Subtitle></span> */}
-                    <Button link={true} path='#formulario'>Quero solucuinar meu caso</Button>
+                    <Button link={true} path='#formulario'>Quero solucionar meu caso</Button>
                 </Section>
                 // <Section sm={true}>
                 //     <Text tag="h2" bottom={true}>Dúvidas Frequentes</Text>
