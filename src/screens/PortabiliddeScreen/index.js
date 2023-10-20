@@ -74,38 +74,6 @@ export default function PortabilidadeScreen() {
                         <Text bottom={true} bg={true} tag="h2">Observe na linha do tempo como funciona</Text>
                         <List porta={true} />
                     </div>
-                </Section>
-                <Section>
-                    <Text bottom={true} bg={true} tag="h2">Como esse Golpe acontece?</Text>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '24px', marginTop: '12px' }}>
-                        <Subtitle
-                            left={true}
-                        >A portabilidade de empréstimo consignado é a transferência de um contrato de crédito de uma instituição financeira para outra, mediante solicitação do cliente.</Subtitle>
-                        <Subtitle
-                            left={true}
-                        >Com isso, você consegue negociar com a nova instituição financeira taxas de juros mais vantajosas no seu empréstimo consignado.</Subtitle>
-                        <Subtitle
-                            left={true}
-                        >Essa operação é super comum e válida.</Subtitle>
-                        <Subtitle
-                            left={true}
-                        >Porém, algumas vezes, a operação não era a que você esperava. Você queria reduzir sua dívida, mas acabou com mais uma. Imagine a seguinte situação: Você possui uma dívida de empréstimo consignado com o “Banco SuperBomDemais”.</Subtitle>
-                        <Subtitle
-                            left={true}
-                        >Depois de algum tempo, recebe uma excelente proposta do “Banco +DinheiroJá”, para reduzir os juros e o valor das suas parcelas mensais.</Subtitle>
-                        <Subtitle
-                            left={true}
-                        >Ao concordar com o “Banco +DinheiroJá”, você deseja realizar a portabilidade do seu empréstimo consignado para garantir essa redução.</Subtitle>
-                        <Subtitle
-                            left={true}
-                        >Então um novo empréstimo é realizado com intuito de quitar o anterior.</Subtitle>
-                        <Subtitle
-                            left={true}
-                        >Porém, não é feita a quitação do empréstimo anterior, e você fica com as dívidas tanto no “Banco SuperBomDemais” quanto no “Banco +DinheiroJá.</Subtitle>
-                        <Subtitle
-                            left={true}
-                        >É exatamente isso que acontece no golpe da portabilidade de empréstimo consignado.</Subtitle>
-                    </div>
                     <Button link={true} path="#formulario">
                         Quero solucuinar meu caso
                     </Button>
