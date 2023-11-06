@@ -41,9 +41,6 @@ export default function MySwiper() {
                     <SwiperSlide className="swiper-slide">
                         <Card imagePath="0" title="Revisional de contratos:">
                             <p>Muitas vezes ao assinar o contrato, o cliente é induzido ao erro. Erro que pode custar caro. Analisamos todos os seus contratos para verificar taxas abusivas, seguros aplicados de maneira ilegal, juros abusivos. Muitas vezes, nessa análise, conseguimos diminuir muito os valores das parcelas e até mesmo reaver valores que foram pagos indevidamente.</p>
-                            <div style={{ textAlign: 'left' }}>
-                                <a href="https://www.reisrevisional.com.br/">Cálculo Revisional</a>
-                            </div>
                         </Card>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
