@@ -22,19 +22,19 @@ export default function PortabilidadeScreen() {
     { title: '7. O tratamento do superendividamento é um perdão de dívidas?', text: 'O tratamento do superendividamento não implica necessariamente no perdão total das dívidas. Visa, principalmente, buscar soluções que permitam ao devedor quitar suas obrigações de forma adequada, considerando sua capacidade financeira.' }
     ]
 
-    // let cont = 0
-    // useEffect(() => {
-    //     if (cont === 0) {
-    //         const script = document.createElement('script');
-    //         script.src = 'https://lauromts.activehosted.com/f/embed.php?id=21';
-    //         script.type = 'text/javascript';
-    //         script.charset = 'utf-8';
-    //         script.async = true;
+    let cont = 0
+    useEffect(() => {
+        if (cont === 0) {
+            const script = document.createElement('script');
+            script.src = 'https://lauromts.activehosted.com/f/embed.php?id=21';
+            script.type = 'text/javascript';
+            script.charset = 'utf-8';
+            script.async = true;
 
-    //         document.body.appendChild(script);
-    //         cont++;
-    //     }
-    // }, []);
+            document.body.appendChild(script);
+            cont++;
+        }
+    }, []);
 
     return (
         <Template>
@@ -149,12 +149,7 @@ export default function PortabilidadeScreen() {
                     />
                 </Section>
                 <div className={styles.formulario} id="formulario">
-                    {/* <div className={`${"_form_21"}  ${styles.border}`}></div> */}
-                    <Text bottom={false} bg={true} tag="h2">Entrar em contato</Text>
-                    <Button link={true} path={"https://api.whatsapp.com/send?phone=+5561%208140-1978&text=Ol%C3%A1+Samuel%2C+tudo+bem%3F+Gostaria+que+me+informasse+mais+a+respeito+do+Golpe+da+Falsa+Portabilidade."}>
-                        <img src="./images/wpp.png" alt="Ícone do Whatsapp" className={styles.image_wpp} />
-                        <span>Quero solucionar meu caso</span>
-                    </Button>
+                    <div className={`${"_form_21"}  ${styles.border}`}></div>
                 </div>
             </main>
             <Footer />
