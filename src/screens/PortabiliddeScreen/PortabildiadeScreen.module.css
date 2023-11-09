@@ -114,6 +114,12 @@
     .formulario h2 {
         display: block
     }
+    .formulario .image_wpp {
+        height: 24px;
+        width: 24px;
+        transform: translateY(6px);
+        margin-right: 4px;
+    }
 }
 @media (max-width: 450px) {
     .img {
