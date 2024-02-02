@@ -39,7 +39,7 @@ export default function AcaoCautelarScreen() {
             <main className={styles.main}>
                 <Section>
                     <img src="./imagesPv/hlp.png" alt="imagem decorativa" className={styles['float-left']} />
-                    <span style={{zIndex: 10}}><Text bottom={false} tag="h2">Um pedido de socorro legal enquanto o seu processo não anda!</Text>
+                    <span style={{zIndex: 10, display: 'flex', flexDirection: 'column', alignItems: 'center'}}><Text bottom={false} tag="h2">Um pedido de socorro legal enquanto o seu processo não anda!</Text>
                     <Subtitle>E como funciona a Ação Cautelar?</Subtitle>
                     <div className={styles.py}>
                         <Square
