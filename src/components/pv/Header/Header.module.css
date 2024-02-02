@@ -46,8 +46,3 @@ header .backImg {
         background-size: contain;
     }
 }
-@media (max-width: 500px) {
-    .header {
-        margin-bottom: 24px;
-    }
-}
