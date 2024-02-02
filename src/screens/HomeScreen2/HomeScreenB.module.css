@@ -1,0 +1,131 @@
+.home-screen .header {
+    width: 100%;
+}
+.home-screen .mainHeader {
+    width: 100%;
+    background: var(--main-color);
+    height: 100px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #fff;
+}
+.home-screen .header img {
+    height: 50px;
+}
+.home-screen .header .bottomHeader {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--neutral);
+}
+.home-screen .header .bottomHeader h1 {
+    font-size: 28px;
+    max-width: 620px;
+    text-align: center;
+    color: #fff;
+}
+.home-screen main {
+    padding-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-screen main .content > img {
+    border-radius: 8px;
+    width: 600px;
+}
+.home-screen main .content {
+    max-width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-screen .content .text {
+    margin-top: 48px;
+}
+.home-screen .content .text p {
+    margin-top: 24px;
+    font-weight: 400;
+    text-align: justify;
+}
+.home-screen .content h3 {
+    margin-bottom: -8px;
+    font-size: 28px;
+}
+.home-screen .last {
+    max-width: 920px;
+    margin-top: 32px;
+    /* padding: 0 300px; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 64px;
+}
+.home-screen .form-container {
+    padding-bottom: 80px;
+}
+.home-screen .last h2 {
+    font-size: 28px;
+}
+.home-screen .last p {
+    text-align: justify;
+}
+.home-screen .last img {
+    width: 100%;
+}
+.home-screen .whatsapp {
+    position: fixed;
+    bottom: 12px;
+    right: 24px;
+    z-index: 1000;
+    background: #fff;
+    border-radius: 4px;
+}
+.home-screen .whatsapp::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.home-screen .whatsapp img {
+    height: 48px;
+    width: 48px;
+}
+@media (max-width: 425px) {
+    .home-screen .header .bottomHeader h1 {
+        font-size: 24px;
+    }
+    .home-screen main {
+        padding-top: 24px;
+    }
+    .home-screen main .content > img {
+        width: 90%;
+    }
+    .home-screen main .content .text {
+        padding: 0 12px;
+    }
+    .home-screen .content .text h3 {
+        font-size: 24px;
+    }
+    .home-screen .content .textF {
+        margin-top: 0;
+    }
+    .home-screen .last {
+        display: flex;
+        gap: 0;
+        flex-direction: column-reverse;
+    }
+    .home-screen .last img {
+        width: 90%;
+    }
+    .home-screen .last .text {
+        margin-top: 12px;
+    }
+    .home-screen .last h2 {
+        font-size: 24px;
+    }
+}

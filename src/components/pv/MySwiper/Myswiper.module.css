@@ -1,0 +1,20 @@
+.swiperDiv {
+    width: 600px;
+    margin-top: 24px;
+}
+.second {
+    display: none!important;
+}
+@media (max-width: 500px) {
+    .first {
+        display: none!important
+    }
+    .second {
+        height: 240px!important;
+        display: block!important;
+        margin-bottom: 12px;
+    }
+    .swiperDiv {
+        width: 360px;
+    }
+}
